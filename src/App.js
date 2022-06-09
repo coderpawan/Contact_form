@@ -1,3 +1,5 @@
+/* eslint-disable no-fallthrough */
+/* eslint-disable default-case */
 import React, { useState } from "react";
 import { FaRegEnvelope } from "react-icons/fa";
 import { AiOutlineUser } from "react-icons/ai";
@@ -15,7 +17,6 @@ const App = () => {
   };
   const [formValues, setFormValues] = useState(initialValues);
   const [formErrors, setFormErrors] = useState({});
-  const [isSubmit, setIsSubmit] = useState(false);
   const errors = {};
 
   const handleChange = (event) => {
