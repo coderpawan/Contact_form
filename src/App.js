@@ -63,9 +63,9 @@ const App = () => {
           subject: "",
           message: "",
         });
-        alert("Data has been stored");
+        alert("Form has been successfully submitted and stored");
       } else {
-        alert("Data could not be stored !! Please try again");
+        alert("Form could not be submitted !! Please try again");
       }
     }
   };
